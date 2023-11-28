@@ -1,0 +1,85 @@
+.hero__container {
+  padding-top: 73px;
+}
+
+.hero__title span {
+  display: block;
+  color: #d2b999;
+  font-size: 197px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.hero__title {
+  color: #d2b999;
+  font-size: 197px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 99px;
+}
+
+.hero__text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.hero__background {
+  height: 820px;
+  background-image: url("/images/hero-tgl-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 273px;
+}
+
+.hero__subtitle {
+  max-width: 586px;
+  margin: 0 auto;
+  color: var(--main-color-text);
+  text-align: right;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.hero__subtitle span {
+  font-style: italic;
+}
+
+.hero__wrapper {
+  position: relative;
+  height: 846px;
+  background-image: url("/images/huose-small-img.png"),
+    url("/images/house-big-img.png");
+  background-repeat: no-repeat;
+  background-position: center, 559px 60px;
+}
+
+.hero_button-circle {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  border: 1px solid #d2b999;
+  border-radius: 50%;
+}
+
+.hero__button {
+  width: 200px;
+  height: 200px;
+  padding: 0 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #d2b999;
+  font-weight: 300;
+}

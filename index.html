@@ -3,31 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,100;1,300&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>THE GOOD LIFE</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a lang="en" href="./index.html">TGL</a>
-        <p lang="en">MENU</p>
-      </nav>
+    <header class="header">
+      <div class="header__container container">
+        <nav class="navigation">
+          <a class="logo" lang="en" href="./index.html">TGL</a>
+          <div class="navigation_wrapper">
+            <p class="navigation__menu" ang="en">MENU</p>
+            <div class="navigation_menu-btn">
+              <div class="navigation_menu-btn-line1"></div>
+              <div class="navigation_menu-btn-line2"></div>
+              <div class="navigation_menu-btn-line3"></div>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1 lang="en">THE GOOD LIFE</h1>
-        <p>ТАУНХАУСИ ПРЕМІУМ КЛАСУ</p>
-        <p>1.5 км. від Києва</p>
-        <div></div>
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title" lang="en"><span>THE</span> GOOD LIFE</h1>
+          <div class="hero__content">
+            <p class="hero__text">ТАУНХАУСИ ПРЕМІУМ КЛАСУ</p>
+            <p class="hero__text">1.5 км. від Києва</p>
+          </div>
+          <div class="hero__background"></div>
+          <div class="hero__wrapper">
+            <h2 class="hero__subtitle">
+              <span lang="en">«THE GOOD LIFE»</span> - таунхауси від забудовника
+              в центрі Софіївської Борщагівки
+            </h2>
+            <div class="hero_button-circle">
+              <button class="hero__button" type="button">
+                ЗАПИСАТИСЯ НА ПЕРЕГЛЯД
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>
-          <span lang="en">«THE GOOD LIFE»</span> - таунхаусы от застройщика в
-          центре Софиевской Борщаговки
-        </h2>
-        <button type="button">ЗАПИСАТИСЯ НА ПЕРЕГЛЯД</button>
-      </section>
-      <section>
-        <h2>ПРО КОМПЛЕКС</h2>
+      <section class="about">
+        <h3>ПРО КОМПЛЕКС</h3>
         <ul>
           <li>
             <span>01.</span>
@@ -78,7 +109,6 @@
             <p>Всього 1,5 км. від Києва, 7 хвилин їзди до метро Житомирська.</p>
           </li>
         </ul>
-        <div></div>
         <ul>
           <li>
             <span>110 м2</span>
@@ -179,7 +209,6 @@
             <p>50м2 з бетонним перекриттям</p>
           </li>
         </ul>
-        <div></div>
       </section>
       <section>
         <h2>У ПІШІЙ ДОСТУПНОСТІ</h2>
