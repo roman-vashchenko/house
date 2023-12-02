@@ -160,10 +160,14 @@ body {
 
 .hero__wrapper {
   position: relative;
+  width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
   height: 846px;
   background-image: url("/images/huose-small-img.png"), url("/images/house-big-img.png");
   background-repeat: no-repeat;
-  background-position: center, 559px 60px;
+  background-position: center, 579px 60px;
 }
 
 .hero_button-circle {
@@ -187,4 +191,16 @@ body {
   border-color: transparent;
   background-color: #d2b999;
   font-weight: 300;
+}
+
+.about__container {
+  padding-top: 158px;
+}
+
+.about__title {
+  width: 227px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.03;
 }/*# sourceMappingURL=main.css.map */
