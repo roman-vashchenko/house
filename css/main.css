@@ -82,6 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .navigation_menu-btn-line1 {
@@ -194,22 +195,157 @@ body {
 }
 
 .about__container {
-  padding-top: 158px;
+  width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.about__information {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 145px;
+  margin-bottom: 200px;
 }
 
 .about__title {
   width: 227px;
-  color: #fff;
+  color: var(--main-color-text);
   font-size: 32px;
   font-weight: 300;
   line-height: 1.03;
 }
 
-.about-complex-list__bg {
+.about-complex-list {
+  width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.about-complex-list__item {
+  width: calc((100% - 100px) / 3);
+}
+
+.about-complex-list__number {
   display: inline-block;
   font-size: 82px;
   font-style: italic;
   font-weight: 300;
   color: transparent;
   -webkit-text-stroke: 2px rgba(210, 185, 153, 0.3019607843);
+}
+
+.about-complex-list__text {
+  color: var(--main-color-text);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.about-dimensions-house-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 205px;
+}
+
+.about-dimensions-house-list__number {
+  font-family: Montserrat;
+  font-size: 82px;
+  font-style: italic;
+  font-weight: 300;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(210, 185, 153, 0.3019607843);
+}
+
+.about__bg-top {
+  height: 820px;
+  background-image: url("/images/house-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 200px;
+}
+
+.about-information-material {
+  position: relative;
+  margin-bottom: 274px;
+}
+
+.about-information-material__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  color: var(--main-color-text);
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.52;
+}
+
+.about-information-material__text-small {
+  position: absolute;
+  top: 230px;
+  left: 0;
+  width: 684px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.about-material-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.about-material-list__item {
+  position: relative;
+  width: 160px;
+  border: 1px solid rgba(210, 185, 153, 0.3);
+}
+
+.about-material-list__item:nth-child(1) {
+  height: 192px;
+}
+
+.about-material-list__item:nth-child(2) {
+  height: 212px;
+}
+
+.about-material-list__item:nth-child(3) {
+  height: 242px;
+}
+
+.about-material-list__item:nth-child(4) {
+  height: 312px;
+}
+
+.about-material-list__item:nth-child(5) {
+  height: 445px;
+}
+
+.about-material-list__item:nth-child(6) {
+  height: 648px;
+}
+
+.about-material-list__text {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d2b999;
+  font-weight: 300;
+}
+
+.about-material-list__number {
+  position: absolute;
+  top: 74px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d2b999;
+  width: 113px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
