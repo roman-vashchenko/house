@@ -161,3 +161,33 @@
 }
 
 // ====About parts of the house====
+
+.about-information-parts-house {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-parts-house-list__item {
+  width: calc((100% - 100px) / 3);
+  gap: 50px;
+}
+
+.about-parts-house-list__text-big {
+  margin-bottom: 10px;
+  color: var(--main-title-color-text);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.about-parts-house-list__text-small {
+  color: var(--main-color-text);
+  font-weight: 300;
+}
+
+.about-information-parts-house-wrap {
+  // width: 559px;
+  height: 784px;
+  background-image: url(/images/house-information.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
