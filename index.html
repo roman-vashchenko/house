@@ -54,7 +54,7 @@
             <span lang="en">«THE GOOD LIFE»</span> - таунхауси від забудовника в
             центрі Софіївської Борщагівки
           </h2>
-          <div class="hero_button-circle">
+          <div class="hero__button-circle">
             <button class="hero__button" type="button">
               ЗАПИСАТИСЯ НА ПЕРЕГЛЯД
             </button>
@@ -226,9 +226,15 @@
                 </p>
               </li>
             </ul>
-            <div class="about-information-parts-house-wrap">
-              <!-- <img src="./images/house-information.png" alt="" width="559" /> -->
-              <button type="button">ЗАПИСАТИСЯ НА ПЕРЕГЛЯД</button>
+            <div class="about-information-parts-house__bg-list">
+              <div class="about-information-parts-house__button-circle">
+                <button
+                  class="about-information-parts-house__btn"
+                  type="button"
+                >
+                  ЗАПИСАТИСЯ НА ПЕРЕГЛЯД
+                </button>
+              </div>
             </div>
             <ul class="about-parts-house-list">
               <li class="about-parts-house-list__item">
@@ -260,44 +266,71 @@
             </ul>
           </div>
         </div>
+        <div class="about-information-parts-house__bg"></div>
       </section>
-      <section>
-        <h2>У ПІШІЙ ДОСТУПНОСТІ</h2>
-        <ul>
-          <li>
-            <span>01.</span>
-            <p>Швидкісний трамвай</p>
-          </li>
-          <li>
-            <span>02.</span>
-            <p>ТЦ "April city"</p>
-          </li>
-          <li>
-            <span>03.</span>
-            <p>Зупинка транспорту</p>
-          </li>
-          <li>
-            <span>04.</span>
-            <p>Маркет</p>
-          </li>
-          <li>
-            <span>05.</span>
-            <p>Школа та садок</p>
-          </li>
-          <li>
-            <span>06.</span>
-            <p>Ліс</p>
-          </li>
-        </ul>
-        <div></div>
+      <section class="availability">
+        <div class="availability__container container">
+          <div class="availability__wrap">
+            <h2 class="availability__title">У ПІШІЙ ДОСТУПНОСТІ</h2>
+            <ul class="availability-list">
+              <li class="availability-list__item">
+                <span class="availability-list__number">01.</span>
+                <p class="availability-list__text">Швидкісний трамвай</p>
+              </li>
+              <li class="availability-list__item">
+                <span class="availability-list__number">02.</span>
+                <p class="availability-list__text">ТЦ "April city"</p>
+              </li>
+              <li class="availability-list__item">
+                <span class="availability-list__number">03.</span>
+                <p class="availability-list__text">Зупинка транспорту</p>
+              </li>
+              <li class="availability-list__item">
+                <span class="availability-list__number">04.</span>
+                <p class="availability-list__text">Маркет</p>
+              </li>
+              <li class="availability-list__item">
+                <span class="availability-list__number">05.</span>
+                <p class="availability-list__text">Школа та садок</p>
+              </li>
+              <li class="availability-list__item">
+                <span class="availability-list__number">06.</span>
+                <p class="availability-list__text">Ліс</p>
+              </li>
+            </ul>
+          </div>
+          <div class="availability__bg">
+            <p class="availability__text">
+              <span>Киев</span>
+              Софиевска борщаговка ул. Шевченка 93
+            </p>
+            <div class="availability__circle">
+              <div class="availability__point"></div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Дизайн інтер'єру в подарок</h2>
-        <p>
-          Кожному клієнту ми даруємо дизайн інтер'єру, вартістю 2 000 $,
-          розроблений професійною студією дизайну
-        </p>
-        <button type="button">ЗАПИСАТИСЯ НА ПЕРЕГЛЯД</button>
+      <section class="design">
+        <div class="design__container container">
+          <h2 class="design__title">
+            <span class="design__title-part1">Дизайн</span>
+            <span class="design__title-part2">інтер'єру</span>
+            <span class="design__title-part3">в подарок</span>
+          </h2>
+          <p class="design__text">
+            Кожному клієнту ми даруємо дизайн інтер'єру, вартістю 2 000 $,
+            розроблений професійною студією дизайну
+          </p>
+          <div class="design__circle">
+            <button class="design__btn" type="button">
+              ЗАПИСАТИСЯ НА ПЕРЕГЛЯД
+            </button>
+          </div>
+          <div class="more-img">
+            <div class="more-img__circle"></div>
+            <p class="more-img_text">дивитися більше фото</p>
+          </div>
+        </div>
       </section>
       <section>
         <h2>РЕАЛЬНІ ФОТО З ОБ'ЄКТУ</h2>

@@ -165,11 +165,18 @@
 .about-information-parts-house {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 310px;
+}
+
+.about-parts-house-list {
+  width: 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .about-parts-house-list__item {
-  width: calc((100% - 100px) / 3);
-  gap: 50px;
+  height: calc((100% - 300px) / 4);
 }
 
 .about-parts-house-list__text-big {
@@ -184,10 +191,42 @@
   font-weight: 300;
 }
 
-.about-information-parts-house-wrap {
-  // width: 559px;
+.about-information-parts-house__bg-list {
+  position: relative;
+  width: 559px;
   height: 784px;
   background-image: url(/images/house-information.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-information-parts-house__button-circle {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  border: 1px solid #d2b999;
+  border-radius: 50%;
+}
+
+.about-information-parts-house__btn {
+  width: 200px;
+  height: 200px;
+  padding: 0 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #d2b999;
+  font-weight: 300;
+}
+
+.about-information-parts-house__bg {
+  height: 820px;
+  background-image: url(/images/house-bg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
