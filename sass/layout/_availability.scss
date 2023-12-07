@@ -45,8 +45,8 @@
 .availability__bg {
   position: relative;
   height: 910px;
-  background-image: url("/images/map-house.png"), url("/images/map-bg.png"),
-    url("/images/map.png");
+  background-image: url("../images/map-house.png"), url("../images/map-bg.png"),
+    url("../images/map.png");
   background-repeat: no-repeat;
   background-size: 420px 238px, cover, 1120px 630px;
   background-position: 312px 394px, 0 0, center;

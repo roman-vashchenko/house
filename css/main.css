@@ -138,7 +138,7 @@ body {
 
 .hero__background {
   height: 820px;
-  background-image: url("/images/hero-tgl-bg.jpg");
+  background-image: url("../images/hero-tgl-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 273px;
@@ -166,7 +166,7 @@ body {
   padding-right: 20px;
   margin: 0 auto;
   height: 846px;
-  background-image: url("/images/huose-small-img.png"), url("/images/house-big-img.png");
+  background-image: url("../images/huose-small-img.png"), url("../images/house-big-img.png");
   background-repeat: no-repeat;
   background-position: center, 579px 60px;
 }
@@ -259,7 +259,7 @@ body {
 
 .about__bg-top {
   height: 820px;
-  background-image: url("/images/house-bg-1.jpg");
+  background-image: url("../images/house-bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 200px;
@@ -383,7 +383,7 @@ body {
   position: relative;
   width: 559px;
   height: 784px;
-  background-image: url(/images/house-information.png);
+  background-image: url("../images/house-information.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -414,7 +414,7 @@ body {
 
 .about-information-parts-house__bg {
   height: 820px;
-  background-image: url(/images/house-bg-2.jpg);
+  background-image: url("../images/house-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -466,7 +466,7 @@ body {
 .availability__bg {
   position: relative;
   height: 910px;
-  background-image: url("/images/map-house.png"), url("/images/map-bg.png"), url("/images/map.png");
+  background-image: url("../images/map-house.png"), url("../images/map-bg.png"), url("../images/map.png");
   background-repeat: no-repeat;
   background-size: 420px 238px, cover, 1120px 630px;
   background-position: 312px 394px, 0 0, center;
