@@ -1,3 +1,21 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__big-text {
+  position: absolute;
+  top: 1927px;
+  left: -11%;
+  font-size: 300px;
+  font-style: italic;
+  font-weight: 500;
+  color: transparent;
+  -webkit-text-stroke: 2px #d2b9994d;
+  white-space: nowrap;
+  z-index: 3;
+}
+
 .hero__container {
   padding-top: 73px;
 }
