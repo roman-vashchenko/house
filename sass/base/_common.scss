@@ -2,4 +2,13 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--main-bg-color);
   color: var(--main-color-text);
+  background-image: url("/images/hero-triangle/triangle-big.png"),
+    url("/images/hero-triangle/triangle-medium.png"),
+    url("/images/hero-triangle/triangle-small.png"),
+    url("/images/footer-triangle/triangle-big.png"),
+    url("/images/footer-triangle/triangle-medium.png"),
+    url("/images/footer-triangle/triangle-small.png");
+  background-repeat: no-repeat;
+  background-position: right top, right top, right top, left bottom, left bottom,
+    left bottom;
 }

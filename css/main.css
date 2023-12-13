@@ -44,6 +44,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--main-bg-color);
   color: var(--main-color-text);
+  background-image: url("/images/hero-triangle/triangle-big.png"), url("/images/hero-triangle/triangle-medium.png"), url("/images/hero-triangle/triangle-small.png"), url("/images/footer-triangle/triangle-big.png"), url("/images/footer-triangle/triangle-medium.png"), url("/images/footer-triangle/triangle-small.png");
+  background-repeat: no-repeat;
+  background-position: right top, right top, right top, left bottom, left bottom, left bottom;
 }
 
 .container {
@@ -61,14 +64,20 @@ body {
 }
 
 .logo {
-  color: currentColor;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: italic;
   font-weight: 300;
+  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo span {
   font-style: normal;
+}
+
+.logo:hover,
+.logo:focus {
+  text-shadow: 0px 0px 7px rgb(255, 255, 255);
 }
 
 .navigation_wrapper {
@@ -80,13 +89,18 @@ body {
 .navigation__menu {
   font-size: 24px;
   font-weight: 300;
+  cursor: pointer;
+}
+
+.navigation__menu:hover,
+.navigation__menu:focus {
+  text-shadow: 0px 0px 7px rgb(255, 255, 255);
 }
 
 .navigation_menu-btn {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  cursor: pointer;
 }
 
 .navigation_menu-btn-line1 {
@@ -212,8 +226,20 @@ body {
   padding: 0 30px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #d2b999;
+  background-color: rgb(210, 185, 153);
   font-weight: 300;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  box-shadow: 0px -1px 28px -6px rgb(210, 185, 153);
+}
+
+.about {
+  background-image: url("/images/about-triangle/triangle-big.png"), url("/images/about-triangle/triangle-medium.png"), url("/images/about-triangle/triangle-small.png");
+  background-repeat: no-repeat;
+  background-position: left 389px, left 444px, left 512px;
 }
 
 .about__container {
@@ -432,6 +458,12 @@ body {
   border-color: transparent;
   background-color: #d2b999;
   font-weight: 300;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about-information-parts-house__btn:hover,
+.about-information-parts-house__btn:focus {
+  box-shadow: 0px -1px 28px -6px rgb(210, 185, 153);
 }
 
 .about-information-parts-house__bg {
@@ -598,6 +630,12 @@ body {
   background-color: #181d24;
   font-weight: 300;
   color: var(--main-title-color-text);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.design__btn:hover,
+.design__btn :focus {
+  box-shadow: 0px -1px 28px -6px rgb(24, 29, 36);
 }
 
 .more-img {
@@ -788,4 +826,10 @@ body {
   border-color: transparent;
   background-color: #d2b999;
   font-weight: 300;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__button:hover,
+.footer__button:focus {
+  box-shadow: 0px -1px 28px -6px rgb(210, 185, 153);
 }/*# sourceMappingURL=main.css.map */

@@ -102,6 +102,12 @@
   padding: 0 30px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #d2b999;
+  background-color: rgba(210, 185, 153, 1);
   font-weight: 300;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  box-shadow: 0px -1px 28px -6px rgba(210, 185, 153, 1);
 }
