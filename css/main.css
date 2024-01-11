@@ -258,13 +258,6 @@ body {
   background-position: left 389px, left 444px, left 512px;
 }
 
-.about__container {
-  width: 1160px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
-
 .about__information {
   display: flex;
   justify-content: space-between;
