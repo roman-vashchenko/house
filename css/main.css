@@ -50,6 +50,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
@@ -718,8 +719,8 @@ body {
 .construction__list {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+  -moz-column-gap: 98px;
+       column-gap: 98px;
   row-gap: 136px;
   margin-bottom: 60px;
 }
