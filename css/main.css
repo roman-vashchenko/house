@@ -719,8 +719,8 @@ body {
 .construction__list {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 98px;
-       column-gap: 98px;
+  -moz-column-gap: 108px;
+       column-gap: 108px;
   row-gap: 136px;
   margin-bottom: 60px;
 }
