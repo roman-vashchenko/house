@@ -47,11 +47,9 @@ body {
   background-image: url("../images/hero-triangle/triangle-big.png"), url("../images/hero-triangle/triangle-medium.png"), url("../images/hero-triangle/triangle-small.png"), url("../images/footer-triangle/triangle-big.png"), url("../images/footer-triangle/triangle-medium.png"), url("../images/footer-triangle/triangle-small.png");
   background-repeat: no-repeat;
   background-position: right top, right top, right top, left bottom, left bottom, left bottom;
-  overflow-x: hidden;
 }
 
 .container {
-  width: 100%;
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
