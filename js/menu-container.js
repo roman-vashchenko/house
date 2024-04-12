@@ -20,9 +20,9 @@ function onCloseMenu(e) {
   if (e.target === refs.list) {
     return;
   }
+
   if (refs.btnMenu !== e.target) {
     refs.menuContainer.classList.remove("js-open");
-    refs.menuContainer.classList.add("js-close");
     document.removeEventListener("click", onCloseMenu);
   }
 }
