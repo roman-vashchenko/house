@@ -4,25 +4,21 @@ const refs = {
   list: document.querySelector(".menu-container__list"),
 };
 
-refs.btnMenu.addEventListener("click", onMenuClick);
+refs.btnMenu.addEventListener("click", onOpenMenu);
 
-function onMenuClick() {
+function onOpenMenu() {
   refs.menuContainer.classList.toggle("js-open");
   if (refs.menuContainer.classList.contains("js-open")) {
     document.addEventListener("click", onCloseMenu);
-  }
-  if (!refs.menuContainer.classList.contains("js-open")) {
+  } else {
     document.removeEventListener("click", onCloseMenu);
   }
 }
 
 function onCloseMenu(e) {
-  if (e.target === refs.list) {
+  if (e.target === refs.list || e.target === refs.btnMenu) {
     return;
   }
-
-  if (refs.btnMenu !== e.target) {
-    refs.menuContainer.classList.remove("js-open");
-    document.removeEventListener("click", onCloseMenu);
-  }
+  refs.menuContainer.classList.remove("js-open");
+  document.removeEventListener("click", onCloseMenu);
 }
