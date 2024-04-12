@@ -40,6 +40,45 @@
   text-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
 }
 
+.menu-container {
+  position: absolute;
+  top: 33px;
+  left: -150px;
+  padding: 10px 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  z-index: 555;
+  background-color: var(--main-bg-color);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-container.js-close {
+  opacity: 0;
+}
+
+.menu-container.js-open {
+  opacity: 1;
+}
+
+.menu-container__item {
+  display: inline-block;
+  margin-bottom: 15px;
+  text-shadow: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-container__item:last-child {
+  margin-bottom: 0px;
+}
+
+.menu-container__item :hover,
+.menu-container__item :focus {
+  text-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
+}
+
+.menu-container__link {
+  color: #d2b999;
+}
+
 .navigation-list {
   display: none;
   position: absolute;

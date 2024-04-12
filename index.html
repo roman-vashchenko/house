@@ -28,20 +28,31 @@
           <a class="logo" lang="en" href="./index.html"> <span>T</span>GL</a>
           <div class="navigation__wrapper">
             <p class="navigation__menu" lang="en">MENU</p>
-            <ul class="navigation-list">
-              <li class="navigation-list__item">
-                <p class="navigation-list__text">Про комплекс</p>
-              </li>
-              <li class="navigation-list__item">
-                <p class="navigation-list__text">У пішій доступності</p>
-              </li>
-              <li class="navigation-list__item">
-                <p class="navigation-list__text">Дизайн інтер'єру в подарок</p>
-              </li>
-              <li class="navigation-list__item">
-                <p class="navigation-list__text">Реальні фото з об'єкту</p>
-              </li>
-            </ul>
+            <div class="menu-container js-close">
+              <ul class="menu-container__list">
+                <li class="menu-container__item">
+                  <a class="menu-container__link" href="#about">Про комплекс</a>
+                </li>
+                <li class="menu-container__item">
+                  <a class="menu-container__link" href="#availability"
+                    >У пішій доступності</a
+                  >
+                </li>
+                <li class="menu-container__item">
+                  <a class="menu-container__link" href="#design"
+                    >Дизайн інтер'єру в подарок</a
+                  >
+                </li>
+                <li class="menu-container__item">
+                  <a class="menu-container__link" href="#construction"
+                    >Реальні фото з обє'кту</a
+                  >
+                </li>
+                <li class="menu-container__item">
+                  <a class="menu-container__link" href="#contacts">Контакти</a>
+                </li>
+              </ul>
+            </div>
             <div class="navigation__line-wrap">
               <div class="navigation__line1"></div>
               <div class="navigation__line2"></div>
@@ -79,7 +90,7 @@
 
       <!-- Аbout the complex -->
 
-      <section class="about">
+      <section id="about" class="about">
         <div class="about__container container">
           <div class="about__information">
             <h2 class="about__title">ПРО КОМПЛЕКС</h2>
@@ -284,7 +295,7 @@
         </div>
         <div class="about__bg"></div>
       </section>
-      <section class="availability">
+      <section id="availability" class="availability">
         <div class="availability__container container">
           <div class="availability__wrap">
             <h2 class="availability__title">У ПІШІЙ ДОСТУПНОСТІ</h2>
@@ -326,7 +337,7 @@
           </div>
         </div>
       </section>
-      <section class="design">
+      <section id="design" class="design">
         <div class="design__container container">
           <h2 class="design__title">
             <span class="design__title-part1">Дизайн</span>
@@ -348,7 +359,7 @@
           </div>
         </div>
       </section>
-      <section class="construction">
+      <section id="construction" class="construction">
         <p class="construction__big-text">GOOD LIFE</p>
         <div class="construction__container container">
           <h2 class="construction__title">РЕАЛЬНІ ФОТО З ОБ'ЄКТУ</h2>
@@ -395,7 +406,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <div class="footer__container container">
         <div class="footer__content">
           <div class="footer__wrap">
@@ -428,4 +439,5 @@
       </div>
     </footer>
   </body>
+  <script src="./js/menu-container.js"></script>
 </html>
